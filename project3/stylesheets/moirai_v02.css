@@ -1,0 +1,1874 @@
+body {
+  background: black;
+}
+
+
+/* letter widths */
+
+/* width A, V */
+.letter26 {
+  display: inline-block;
+  height: 280px;
+  width: 520px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width B */
+.letter5 {
+  display: inline-block;
+  height: 280px;
+  width: 100px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width C, D, E, F, G, H, J, K. L, O, P, R, T, U */
+.letter8 {
+  display: inline-block;
+  height: 280px;
+  width: 160px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width I */
+.letter2 {
+  display: inline-block;
+  height: 280px;
+  width: 40px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width comma */
+.letter3 {
+  display: inline-block;
+  height: 280px;
+  width: 60px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width M, N, X, Y, Z */
+.letter14 {
+  display: inline-block;
+  height: 280px;
+  width: 280px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width Q */
+.letter9 {
+  display: inline-block;
+  height: 280px;
+  width: 180px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width S */
+.letter6 {
+  display: inline-block;
+  height: 280px;
+  width: 120px;
+  position: relative;
+  margin: 0em;
+}
+
+/* width W */
+.letter38 {
+  display: inline-block;
+  height: 280px;
+  width: 760px;
+  position: relative;
+  margin: 0em;
+}
+
+
+
+/* single star body */
+
+.star {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.xhor {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: white;
+}
+
+.xvert {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-color: white;
+}
+
+.xright {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.xleft {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+
+
+/* A */
+
+.a .left {
+  background: white;
+  width: 2px;
+  height: 382px;
+  position: absolute;
+  left: 140px;
+  top: -51px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.a .right {
+  background: white;
+  width: 2px;
+  height: 382px;
+  position: absolute;
+  left: 380px;
+  top: -51px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.a .middle {
+  width: 280px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 121px;
+  top: 139px;
+  bottom: 0;
+}
+
+.a-top {
+  left: 260px;
+  top: 0px;
+  position: absolute;
+}
+
+.a-bottom1 {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.a-bottom2 {
+  left: 500px;
+  top: 240px;
+  position: absolute;
+}
+
+.a-middle1 {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.a-middle2 {
+  left: 380px;
+  top: 120px;
+  position: absolute;
+}
+
+
+
+
+/* B */
+
+.b .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+
+.b .top {
+  background: white;
+  width: 2px;
+  height: 125px;
+  position: absolute;
+  left: 50px;
+  top: -12.5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.b .middle-top {
+  background: white;
+  width: 2px;
+  height: 125px;
+  position: absolute;
+  left: 50px;
+  top: 47.5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.b .middle-bottom {
+  background: white;
+  width: 2px;
+  height: 125px;
+  position: absolute;
+  left: 50px;
+  top: 107.5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.b .bottom {
+  background: white;
+  width: 2px;
+  height: 125px;
+  position: absolute;
+  left: 50px;
+  top: 167.5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.b-left1 {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.b-left2 {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.b-left3 {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.b-right1 {
+  left: 80px;
+  top: 60px;
+  position: absolute;
+}
+
+.b-right2 {
+  left: 80px;
+  top: 180px;
+  position: absolute;
+}
+
+
+
+
+/* C */
+
+.c .top {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: -25px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c .bottom {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: 95px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.c-top {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.c-middle {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.c-bottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* D */
+
+.d .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+  bottom: 0;
+}
+
+
+.d .top {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: -25px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.d .bottom {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: 95px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.d-top {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.d-middle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.d-bottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* E */
+
+.e .top {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: -25px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.e .middle {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 139px;
+  bottom: 0;
+}
+
+.e .bottom {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: 95px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.e-left {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.e-top {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.e-middle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.e-bottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+
+/* F */
+
+.f .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+
+.f .top {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+}
+
+.f .middle {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 139px;
+  bottom: 0;
+}
+
+.f-lefttop{
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.f-leftmiddle {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.f-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.f-righttop {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.f-rightmiddle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+
+
+
+/* G */
+
+.g .top {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: -25px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.g .bottom {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: 95px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.g .right {
+  background: white;
+  width: 2px;
+  height: 160px;
+  position: absolute;
+  left: 140px;
+  top: 120px;
+  bottom: 0;
+}
+
+.g-left {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.g-top {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.g-middle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.g-bottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* H */
+
+.h .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.h .right {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 140px;
+  top: 0px;
+}
+
+.h .middle {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 139px;
+  bottom: 0;
+}
+
+.h-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.h-leftmiddle {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.h-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.h-righttop {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.h-rightmiddle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.h-rightbottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* I */
+
+.i .left {
+  background: white;
+  width: 2px;
+  height: 280px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+
+.i-top {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+
+
+/* J */
+
+.j .left {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: 95px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.j .right {
+  background: white;
+  width: 2px;
+  height: 280px;
+  position: absolute;
+  left: 140px;
+  top: 0px;
+  bottom: 0;
+}
+
+.j-top {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.j-middle {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.j-bottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+/* K */
+
+.k .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.k .top {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: -25px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.k .bottom {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: 95px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.k-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.k-leftmiddle {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.k-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.k-righttop {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.k-rightbottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* L */
+
+.l .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.l .bottom {
+  background: white;
+  position: absolute;
+  width: 160px;
+  height: 2px;
+  left: 1px;
+  top: 259px;
+}
+
+.l-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.l-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.l-rightbottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+/* M */
+
+.m .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.m .middle-left {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: -25px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.m .middle-right {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 200px;
+  top: -25px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.m .right {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 260px;
+  top: 0px;
+}
+
+.m-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.m-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.m-middle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.m-righttop {
+  left: 260px;
+  top: 0px;
+  position: absolute;
+}
+
+.m-rightbottom {
+  left: 260px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+/* N */
+
+.n .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.n .middle {
+  background: white;
+  width: 2px;
+  height: 379px;
+  position: absolute;
+  left: 140px;
+  top: -49.5px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.n .right {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 260px;
+  top: 0px;
+}
+
+.n-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.n-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.n-righttop {
+  left: 260px;
+  top: 0px;
+  position: absolute;
+}
+
+.n-rightbottom {
+  left: 260px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+/* O */
+
+.o .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.o .right {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 140px;
+  top: 0px;
+}
+
+.o .top {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 19px;
+  bottom: 0;
+}
+
+.o .bottom {
+  background: white;
+  position: absolute;
+  width: 160px;
+  height: 2px;
+  left: 1px;
+  top: 259px;
+}
+
+.o-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.o-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.o-righttop {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.o-rightbottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+/* P */
+
+.p .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+
+.p .top {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+}
+
+.p .bottom {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 139px;
+  bottom: 0;
+}
+
+.p .right {
+  background: white;
+  width: 2px;
+  height: 160px;
+  position: absolute;
+  left: 140px;
+  top: 0px;
+  bottom: 0;
+}
+
+.p-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.p-leftmiddle {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.p-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.p-righttop {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.p-rightmiddle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+
+
+/* Q */
+
+.q .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.q .right {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 140px;
+  top: 0px;
+}
+
+.q .top {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 19px;
+  bottom: 0;
+}
+
+.q .bottom {
+  background: white;
+  position: absolute;
+  width: 160px;
+  height: 2px;
+  left: 1px;
+  top: 259px;
+}
+
+.q .tail {
+  background: white;
+  width: 2px;
+  height: 113px;
+  position: absolute;
+  left: 140px;
+  top: 203.5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.q-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.q-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.q-righttop {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.q-rightbottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* R */
+
+.r .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.r .middle-top{
+  background: white;
+  width: 2px;
+  height: 125px;
+  position: absolute;
+  left: 50px;
+  top: -12.5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.r .middle-middle {
+  background: white;
+  width: 2px;
+  height: 125px;
+  position: absolute;
+  left: 50px;
+  top: 47.5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.r .middle-bottom {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: 95px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.r-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.r-leftmiddle {
+  left: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+.r-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.r-righttop {
+  left: 80px;
+  top: 60px;
+  position: absolute;
+}
+
+.r-rightbottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* S */
+
+.s .top {
+  background: white;
+  width: 2px;
+  height: 153px;
+  position: absolute;
+  left: 60px;
+  top: -16.5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.s .middle {
+  background: white;
+  width: 2px;
+  height: 153px;
+  position: absolute;
+  left: 60px;
+  top: 63.5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.s .bottom {
+  background: white;
+  width: 2px;
+  height: 153px;
+  position: absolute;
+  left: 60px;
+  top: 143.5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.s-lefttop {
+  left: 20px;
+  top: 80px;
+  position: absolute;
+}
+
+.s-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.s-righttop {
+  left: 100px;
+  top: 0px;
+  position: absolute;
+}
+
+.s-rightbottom {
+  left: 100px;
+  top: 160px;
+  position: absolute;
+}
+
+
+
+
+/* T */
+
+.t .top {
+  background: white;
+  width: 160px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 19px;
+  bottom: 0;
+}
+
+.t .bottom{
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 80px;
+  top: 0px;
+}
+
+.t-topleft {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.t-topmiddle {
+  left: 80px;
+  top: 0px;
+  position: absolute;
+}
+
+.t-topright {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.t-bottom {
+  left: 80px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* U */
+
+.u .left {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 20px;
+  top: 0px;
+}
+
+.u .bottom {
+  background: white;
+  position: absolute;
+  width: 160px;
+  height: 2px;
+  left: 1px;
+  top: 259px;
+}
+
+.u .right {
+  background: white;
+  position: absolute;
+  width: 2px;
+  height: 280px;
+  left: 140px;
+  top: 0px;
+}
+
+.u-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.u-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.u-righttop {
+  left: 140px;
+  top: 0px;
+  position: absolute;
+}
+
+.u-rightbottom {
+  left: 140px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* V */
+
+.v .left {
+  background: white;
+  width: 2px;
+  height: 382px;
+  position: absolute;
+  left: 140px;
+  top: -51px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.v .right {
+  background: white;
+  width: 2px;
+  height: 382px;
+  position: absolute;
+  left: 380px;
+  top: -51px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.v-left {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.v-middle {
+  left: 260px;
+  top: 240px;
+  position: absolute;
+}
+
+.v-right {
+  left: 500px;
+  top: 0px;
+  position: absolute;
+}
+
+
+
+
+/* W */
+
+.w .left {
+  background: white;
+  width: 2px;
+  height: 382px;
+  position: absolute;
+  left: 140px;
+  top: -51px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.w .middle-left {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 320px;
+  top: 95px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.w .middle-right {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 440px;
+  top: 95px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.w .right {
+  background: white;
+  width: 2px;
+  height: 382px;
+  position: absolute;
+  left: 620px;
+  top: -51px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.w-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.w-leftbottom {
+  left: 260px;
+  top: 240px;
+  position: absolute;
+}
+
+.w-middle {
+  left: 380px;
+  top: 120px;
+  position: absolute;
+}
+
+.w-rightbottom {
+  left: 500px;
+  top: 240px;
+  position: absolute;
+}
+
+.w-righttop {
+  left: 740px;
+  top: 0px;
+  position: absolute;
+}
+
+
+
+
+/* X */
+
+.x .top {
+  background: white;
+  width: 2px;
+  height: 379px;
+  position: absolute;
+  left: 140px;
+  top: -49.5px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.x .bottom {
+  background: white;
+  width: 2px;
+  height: 379px;
+  position: absolute;
+  left: 140px;
+  top: -49.5px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.x-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.x-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.x-middle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.x-righttop {
+  left: 260px;
+  top: 0px;
+  position: absolute;
+}
+
+.x-rightbottom {
+  left: 260px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* Y */
+
+.y .left {
+  background: white;
+  width: 2px;
+  height: 210px;
+  position: absolute;
+  left: 80px;
+  top: -25px;
+  bottom: 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.y .right {
+  background: white;
+  width: 2px;
+  height: 379px;
+  position: absolute;
+  left: 140px;
+  top: -49.5px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.y-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.y-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.y-middle {
+  left: 140px;
+  top: 120px;
+  position: absolute;
+}
+
+.y-righttop {
+  left: 260px;
+  top: 0px;
+  position: absolute;
+}
+
+
+
+/* Z */
+
+.z .top {
+  background: white;
+  position: absolute;
+  width: 280px;
+  height: 2px;
+  left: 1px;
+  top: 19px;
+}
+
+.z .middle {
+  background: white;
+  width: 2px;
+  height: 379px;
+  position: absolute;
+  left: 140px;
+  top: -49.5px;
+  bottom: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.z .bottom {
+  background: white;
+  position: absolute;
+  width: 280px;
+  height: 2px;
+  left: 1px;
+  top: 259px;
+}
+
+.z-lefttop {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.z-leftbottom {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+.z-righttop {
+  left: 260px;
+  top: 0px;
+  position: absolute;
+}
+
+.z-rightbottom {
+  left: 260px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* period */
+
+.period-star {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* comma */
+
+.comma .left {
+  background: white;
+  width: 2px;
+  height: 76.5px;
+  position: absolute;
+  left: 27px;
+  top: 214.5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.comma-star {
+  left: 40px;
+  top: 220px;
+  position: absolute;
+}
+
+
+
+
+/* question mark */
+
+.question .top {
+  background: white;
+  width: 2px;
+  height: 153px;
+  position: absolute;
+  left: 60px;
+  top: -16.5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.question .middle {
+  background: white;
+  width: 2px;
+  height: 153px;
+  position: absolute;
+  left: 60px;
+  top: 63.5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.question .bottom {
+  background: white;
+  width: 2px;
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+
+.question-top {
+  left: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+.question-middle {
+  left: 100px;
+  top: 80px;
+  position: absolute;
+}
+
+.question-bottom {
+  left: 20px;
+  top: 160px;
+  position: absolute;
+}
+
+.question-dot {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+
+
+
+/* exclamation point */
+
+.exclamation .left {
+  background: white;
+  width: 2px;
+  height: 220px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+
+.exclamation-star {
+  left: 20px;
+  top: 240px;
+  position: absolute;
+}
+
+
+.star:hover .letter {
+    opacity: 0;
