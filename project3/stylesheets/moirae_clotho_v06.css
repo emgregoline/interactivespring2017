@@ -1,24 +1,56 @@
 body {
   background: black;
+  margin: 2em;
 }
 
-.letter {
-  opacity: 100;
+.button {
+  position: fixed;
+  top: 40px;
+  left: 60px;
+  cursor: pointer;
+  display:none;
 }
+  /*
+#spin-star {
+      top: 0px;
+      left: 0px;
+/*/*/*/*/*      -ms-transform: rotate(45deg); /* IE 9 */
+      -ms-transform-origin: 0% 50%; /* IE 9 */
+      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+      -webkit-transform-origin: 0% 50%; /* Chrome, Safari, Opera */
+      transform: rotate(45deg);
+      transform-origin: 0% 50%;
+      -webkit-animation-name: spinnerRotate;
+      -webkit-animation-duration: 5s;
 
-.a-top:hover .letter{
-    opacity: 100;
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
 }
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+    }
+*/*/*/*/*/*/
 
 .star {
-  z-index: -1;
+  z-index: 99999;
+  cursor: pointer;
 }
-
-.container {
-  position: absolute;
-  top: 40px;
-  left: 40px;
+/*
+.letter {
+  display: none;
 }
+*/
 
 /* letter widths */
 
@@ -2659,5 +2691,6 @@ body {
   top: 240px;
   position: absolute;
 }
+
 
 
