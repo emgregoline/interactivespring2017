@@ -1,0 +1,36 @@
+.title {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-transform: uppercase;
+}
+
+.jamaica {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+p {
+	font-size: 70px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 70px;
+	font-weight: bold;
+	word-spacing: 90px;
+	text-transform: uppercase;
+
+} 
+
+.thisishow {
+	position: fixed;
+	top: 150px;
+	left: 30px;
+	width: 100%;
+	z-index: -1;
+	font-family: "Palatino Linotype", serif;
+	font-size: 40px;
+	line-height: 90px;
+	word-spacing: 70px;
+	text-transform: lowercase;
+
+}

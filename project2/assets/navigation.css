@@ -1,0 +1,21 @@
+a#navigation {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    position: fixed;
+}
+
+ a#home {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+}
+
+a#navigation:hover {
+    opacity: 0;
+}
+
+a#home:hover {
+    opacity: 0;
+}

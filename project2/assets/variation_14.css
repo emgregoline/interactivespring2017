@@ -1,0 +1,64 @@
+.title {
+	position: fixed;
+	bottom: 0;
+	right: 30px;
+	text-align: right;
+}
+
+.part1 {
+	height: 330px;
+	width: 330px;
+	display: block;
+	border: 2px solid;
+	margin: 100px auto;
+	padding: 10px;
+}
+
+.question1 {
+	position: fixed;
+	right: 300px;
+	bottom: 50px;
+	margin: 100px auto;
+}
+
+.square {
+    height: 330px;
+    width: 330px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border: 3px double;
+    padding: 2em;
+}
+
+.mother {
+	display: float;
+	height: 300px;
+	width: 400px;
+	padding: 3em;
+	border: 1px;
+}
+
+.girl1 {
+    height: 200px;
+    width: 200px;
+    margin-right: 250px;
+    padding: 3em;
+    border: 2px dotted;
+    float: right;
+}
+
+.how {
+	max-width: 150px;
+	padding-left: 500px;
+	font-weight: bold;
+
+}
+
+.girl2 {
+	position: fixed;
+	height: 200px;
+	width: 200px;
+	padding: 3em;
+	top: 0;
+	right: 0;
+}

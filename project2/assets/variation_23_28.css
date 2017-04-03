@@ -1,0 +1,32 @@
+.container1 {
+  width: 400px;
+  height: 400px;
+  padding: 1em;
+  border-radius: 50%;
+  background-color: #3f4045;
+  margin: 50px auto;
+  position: relative;
+}
+
+.container2 {
+  left: 6px;
+  top: 77px;
+  width: 300px;
+  height: 300px;
+  padding: 1em;
+  margin: 0px auto;
+  position: relative;
+}
+
+a {
+  font-family: "Helvetica", Helvetica, sans-serif;
+  font-size: 20pt;
+  position: relative;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0;
+}

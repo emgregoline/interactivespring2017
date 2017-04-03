@@ -1,0 +1,23 @@
+p {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  padding: 2em;
+  background-color: lemonchiffon;
+}
+
+.how {
+	background-color: tomato;
+}
+
+.girl {
+	background-color: black;
+	color: white;
+}
+
+.mother {
+	background-color: darkseagreen;
+
+}

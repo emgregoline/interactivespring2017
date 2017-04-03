@@ -1,0 +1,18 @@
+body {
+  background: #FFBFD2;
+}
+
+a.line {
+  font-style: bold;
+  font-size: 40px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  color:#FFBFD2;
+}
+
+a:hover {
+  color: blue;
+}
+
+
+

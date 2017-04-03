@@ -1,0 +1,38 @@
+.main {
+  width: 100%;
+  position: absolute;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 49px;
+  color: white;
+  margin-left: 10px auto;
+  margin-right: 10px auto;
+  line-height: 50px;
+  z-index: -1;
+}
+
+#girl1 {
+    position: fixed;
+    transform: rotate(-90deg);
+    left: -559px;
+    color: #FF6FE5;
+    top: 569px;
+    font-family: "Snell Roundhand", cursive;
+    font-size: 44pt;
+  }
+
+#girl2 {
+    position: fixed;
+    transform: rotate(90deg);
+    right: -469px;
+    top: 495px;
+    color: #FF6FE5;
+    text-align: left;
+    font-family: "Snell Roundhand", cursive;
+    font-size: 44pt;
+    line-height: 28px;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}

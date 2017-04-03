@@ -1,0 +1,29 @@
+.author {
+	position: fixed;
+	top: 0;
+	right: 30px;
+	text-align: right;
+	font-size: 36px;
+	font-family: "Courier New", courier, monospace;
+}
+
+.box {
+	width: 700px auto;
+	height: auto;
+	margin: 100px auto;
+	padding: 160px;
+	background: yellow;
+	border-left: 50px dotted;
+	border-top: 50px dotted;
+	border-right: 50px solid;
+	border-bottom: 50px solid;
+	font-size: 40px;
+	line-height: 42pt;
+	font-family: "Arial Black", Gadget, sans-serif
+}
+
+.girl {
+	font-family: "Courier New", courier, monospace;
+	font-size: 12px;
+
+}

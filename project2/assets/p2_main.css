@@ -1,0 +1,93 @@
+.title {
+	float: left;
+	width: 50%;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 30px;
+	color: #DDFFD2;
+	z-index: -1;
+}
+
+.homepage {
+	width: 50%;
+	float: right: 0;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 30px;
+	color: #DDFFD2;
+	position: absolute;
+	z-index: 1;
+}
+
+a#home {
+	color: #FDFF9C;
+}
+
+a#home:hover {
+	color: black;
+}
+
+.column-left {
+	float: left;
+	top: 0;
+	width: 200px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 30px;
+	padding: 0;
+}
+
+.column-right {
+	float: right;
+	vertical-align: 0px;
+	width: 100px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 30px;
+	text-align: right;
+}
+
+#level1{
+	color: #D5F2FF;
+}
+
+#level2{
+	color: #FFD5F7;
+}
+
+#level3{
+	color: #F9EAE7;
+}
+
+#level4{
+	color: #D8F2FF;
+}
+
+#level5{
+	color: #FFE6BE;
+}
+
+a {
+	text-decoration: none;
+}
+
+a#level1:hover {
+	color: black;
+}
+
+a#level2:hover {
+	color: black;
+}
+
+a#level3:hover {
+	color: black;
+}
+
+a#level4:hover {
+	color: black;
+}
+
+a#level5:hover {
+	color: black;
+}
+
+body {
+	background-color: black
+}
+

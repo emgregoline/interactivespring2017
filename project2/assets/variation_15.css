@@ -1,0 +1,8 @@
+#level1 {
+	margin: auto;
+	position: relative;
+	border: 10px solid;
+	border-color: black;
+	width: auto;
+	padding: 2em;
+}
