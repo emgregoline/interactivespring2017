@@ -1,21 +1,17 @@
 body {
   background: black;
+  margin: 2em;
 }
-
-.container {
-  width: 800px;
-  margin: 40px auto;
-}
-
 
 .star {
   z-index: 99999;
-  cursor: none;
+  cursor: pointer;
 }
 
 .letter {
   display: none;
 }
+
 
 /* letter widths */
 
