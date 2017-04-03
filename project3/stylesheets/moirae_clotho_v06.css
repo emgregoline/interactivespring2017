@@ -44,17 +44,6 @@ body {
     cursor: crosshair;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes scroll {
-    from {left: 0px;}
-    to {left: -500px;}
-} 
-
-/* Standard syntax */ 
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: -500px;}
-} 
 
 @-webkit-keyframes spinnerRotate
 {
