@@ -9,7 +9,7 @@
 
 </head>
 
-
+<style>HTML,BODY{cursor: url("assets/moirae_cursor.cur"), auto;}</style>
 
 <body>
 
@@ -413,8 +413,6 @@
 
 
 </div>
-
-
   <div class="letter8 space"></div>
     <div class="letter8 space"></div>
     <div class="letter8 space"></div>
@@ -422,6 +420,8 @@
         <div class="letter8 space"></div>
           <div class="letter8 space"></div>
             <div class="letter8 space"></div>
+
+
 
 </div>
 
@@ -989,7 +989,6 @@
 
 </div>
 
-
   <div class="letter8 space"></div>
     <div class="letter8 space"></div>
     <div class="letter8 space"></div>
@@ -997,6 +996,7 @@
         <div class="letter8 space"></div>
           <div class="letter8 space"></div>
             <div class="letter8 space"></div>
+
 
   </div>
 
@@ -1554,6 +1554,7 @@
 
 </div>
 
+
   <div class="letter8 space"></div>
     <div class="letter8 space"></div>
     <div class="letter8 space"></div>
@@ -1565,6 +1566,8 @@
 
 
 </div>
+
+
 
 
 
@@ -1932,43 +1935,6 @@
   </div>
 
 
-  <div class="letter14 y">
-
-    <div class="letter y">
-      <div class="left"></div>
-      <div class="right"></div>
-    </div>
-
-    <div class="star y-lefttop">
-      <div class="xvert"></div>
-      <div class="xhor"></div>
-      <div class="xright"></div>
-      <div class="xleft"></div>
-    </div>
-
-    <div class="star y-leftbottom">
-      <div class="xvert"></div>
-      <div class="xhor"></div>
-      <div class="xright"></div>
-      <div class="xleft"></div>
-    </div>
-
-    <div class="star y-middle">
-      <div class="xvert"></div>
-      <div class="xhor"></div>
-      <div class="xright"></div>
-      <div class="xleft"></div>
-    </div> 
-
-    <div class="star y-righttop">
-      <div class="xvert"></div>
-      <div class="xhor"></div>
-      <div class="xright"></div>
-      <div class="xleft"></div>
-    </div>
-
-  </div>
-
   <div class="letter8 space"></div>
 
 
@@ -2322,23 +2288,15 @@
 <script>
 
 
-// $(document).ready(function(){
-//     $(".star").mouseenter(function(){
-//         $(".letter").fadeIn(6000);
-//     });
-//     $(".star").mouseleave(function(){
-//         $(".letter").fadeOut(6000);
-//     });
-// });
 
-
-
-// $('.answer').hide()
-// $('.button').click(function(){
-//     var random = Math.floor(Math.random() * $('.button').length);
-//     $('.button').hide().eq(random).show();
-// });
-
+$(document).ready(function(){
+    $(".star").mouseenter(function(){
+        $(".letter").fadeIn(3000);
+    });
+    $(".star").mouseleave(function(){
+        $(".letter").fadeOut(3000);
+    });
+});
 
 
 
