@@ -9,7 +9,9 @@
 
 </head>
 
-<style>HTML,BODY{cursor: url("assets/moirae_cursor.cur"), auto;}</style>
+<style>HTML,BODY{cursor: url("assets/moirae_cursor.cur"), auto; .star:hover {cursor: none;}
+
+</style>
 
 <body>
 
@@ -23,9 +25,6 @@
     <div class="xleft"></div>
 </div>
 
-
-<div class="header">
-</div>
 
 
 <div id="itiscertain" class="answer">
@@ -2291,11 +2290,12 @@
 
 
 $(document).ready(function(){
+
     $(".star").mouseenter(function(){
-        $(".letter").fadeIn(3000);
+        $(".letter").fadeIn(10000);
     });
     $(".star").mouseleave(function(){
-        $(".letter").fadeOut(3000);
+        $(".letter").fadeOut(10000);
     });
 });
 
