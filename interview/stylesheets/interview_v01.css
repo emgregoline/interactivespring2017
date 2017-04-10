@@ -1,0 +1,197 @@
+body {
+	padding: 12px;
+}
+
+#menu {
+	position: fixed;
+	right: -240px;
+	top: 285px;
+	font-family: "Arial", Helvetica, sans-serif;
+    font-size: 15px;
+	-webkit-transform: rotate(90deg);	
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.menuitem {
+	color: black;
+	text-decoration: none;
+}
+
+.menuitem:hover {
+	color: red;
+}
+
+.caption {
+	font-size: 18px;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: red;
+}
+
+
+.draggable { 
+	padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 3px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+    margin-right: 320px;
+}
+
+.answer { 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+    color: black;
+    background-color: white;
+}
+
+.name {
+  width: 500px;
+  height: 55px;
+  background-color: #3daee2;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+.question1 {
+  width: 500px;
+  height: 195px;
+  background-color: #5aed5c;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question2 {
+  width: 500px;
+  height: 150px;
+  background-color: #f5bdf9;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question3 {
+  width: 500px;
+  height: 195px;
+  background-color: #f20e0e;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+
+.question4 {
+  width: 500px;
+  height: 195px;
+  background-color: #6c667f;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question5 {
+  width: 500px;
+  height: 150px;
+  background-color: #263f23; 
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question6 {
+  width: 500px;
+  height: 150px;
+  background-color: #e8cd37;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+.question7 {
+  width: 500px;
+  height: 55px;
+  background-color: #ff63bb;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question8 {
+  width: 500px;
+  height: 105px;
+  background-color: #053cc6;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question9 {
+  width: 500px;
+  height: 150px;
+  background-color: #d8dbff;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question10 {
+  width: 500px;
+  height: 105px;
+  background-color: #ff6600;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question11 {
+  width: 500px;
+  height: 105px;
+  background-color: #561724;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question12 {
+  width: 500px;
+  height: 105px;
+  background-color: #7538c4;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question13 {
+  width: 500px;
+  height: 55px;
+  background-color: #84ffd2;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question14 {
+  width: 500px;
+  height: 105px ;
+  background-color: #faff9e; 
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}
+
+
+.question15 {
+  width: 500px;
+  height: 105px;
+  background-color: #aaaaaa;
+  cursor: move;
+  position: relative; /* important (all position that's not `static`) */
+}

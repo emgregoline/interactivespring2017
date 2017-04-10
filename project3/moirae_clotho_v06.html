@@ -2294,10 +2294,29 @@ $(document).ready(function(){
     $(".star").mouseenter(function(){
         $(".letter").fadeIn(10000);
     });
+
+
     $(".star").mouseleave(function(){
         $(".letter").fadeOut(10000);
     });
+
+
+  $('.star').click(function(){
+    $('.letter').toggleClass('show');
+  });
+  
+
+$(function(){
+
+  
+
+
 });
+
+
+});
+
+
 
 
 
