@@ -6,11 +6,11 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="stylesheets/interview_v01.css">
    	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
-    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-<!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- <script src="http://code.jquery.com/jquery-1.8.3.js"></script> -->
+    <!-- <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> -->
     <link rel="stylesheet" href="/resources/demos/style.css" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 
 <body>
@@ -124,9 +124,10 @@ I’m proud that at 37 years on this planet I am getting better and better at li
 </div>
 
 <script>
-
-$(function() {
-    $( ".draggable" ).draggable();
+$(document).ready(function() {
+	$(function() {
+	    $( ".draggable" ).draggable();
+	});
 });
 </script>
 
