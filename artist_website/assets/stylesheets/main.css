@@ -1,11 +1,132 @@
-.hand1 {
-	z-index: 1000000 ;
+
+html, body { 
+	background: rgb(255, 245, 81);
+	font-family: "Arial", Helvetica, sans-serif;
+  	font-size: 22px;
+  	letter-spacing: 2px;
+  	padding-left: 10px;
+  	padding-top: 10px;
+  	cursor: pointer;
 }
 
-#barroomkiss {
-	/*Chrome,Safari*/
--webkit-clip-path: polygon(346px 595px,341px 582px,327px 566px,309px 555px,291px 548px,270px 545px,242px 547px,220px 557px,207px 566px,196px 579px,183px 606px,169px 634px,160px 649px,156px 651px,149px 656px,139px 662px,127px 674px,119px 688px,119px 703px,118px 716px,118px 722px,114px 728px,113px 738px,113px 744px,115px 750px,115px 754px,116px 770px,118px 781px,121px 789px,123px 795px,128px 798px,134px 800px,142px 800px,145px 815px,148px 821px,154px 831px,159px 835px,165px 835px,173px 832px,176px 849px,180px 864px,183px 870px,190px 878px,198px 876px,207px 870px,209px 849px,209px 798px,217px 786px,223px 766px,229px 731px,227px 758px,225px 771px,227px 783px,229px 789px,229px 798px,230px 806px,236px 817px,241px 828px,244px 842px,246px 857px,253px 861px,265px 864px,275px 861px,283px 851px,287px 839px,285px 820px,281px 793px,279px 759px,280px 733px,286px 724px,298px 718px,305px 718px,313px 721px,319px 727px,323px 738px,326px 750px,326px 779px,330px 790px,337px 795px,344px 798px,353px 799px,359px 796px,362px 783px,362px 766px,363px 758px,363px 744px,366px 731px,365px 716px,361px 703px,354px 689px,355px 676px,355px 643px,352px 618px,345px 592px);
-
-/*Firefox*/
-clip-path: url("#clipPolygon");
+/*.hand1 {
+    position: absolute;
 }
+*/
+
+#navcontainer {
+	width: 480px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 30px;
+}
+
+nav {
+    display: block;
+    list-style-type: none;
+    height: 60px;
+    text-align: right;
+}
+
+nav li {
+    display: block;
+    position: relative;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 13px 10px;
+    text-align: left;
+}
+
+nav li a:hover {
+    -webkit-transition: none;
+}
+
+nav nav {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    margin-top: -10px;
+}
+
+nav nav li {
+    float: right;
+}
+
+nav li:hover nav {
+    margin-top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.hand {
+	display: inline-block;
+	text-align: right;
+}
+
+.hand:hover {
+	cursor: none;
+}
+
+.container {
+margin-right: 40px auto;
+}
+
+.row {
+	display: block;
+	color: rgb(255, 245, 81);
+}
+
+.row:hover {
+	color: black;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: rgb(255, 245, 81);
+	font-family: "Arial", Helvetica, sans-serif;
+  	font-size: 22px;
+  	letter-spacing: 2px;
+
+}
+
+a:hover {
+	color: black;
+}
+
+.hand:hover {
+	opacity: 0;
+}
+
+
+
+
+/*.one {
+.element {
+  clip-path: rect(10px, 20px, 30px, 40px);
+}
+
+.one:hover {
+  clip-path: rect(px, 20px, 30px, 40px);
+}
+
+*/
+/*.one {
+  shape-inside: polygon(0 0,  500px 0, 350px 300px, 150px 300px);
+  shape-padding: 20px;
+  transition: all 2s ease; 
+  -webkit-clip-path: polygon(0 0,  500px 0, 350px 300px, 150px 300px);
+} 
+.one:hover {
+  shape-inside: polygon(150px 0, 350px 0, 500px 300px, 0px 300px);
+  -webkit-clip-path:  polygon(150px 0, 350px 0, 500px 300px, 0px 300px);
+ /* shape-inside: circle(50%, 50%, 50%);
+  -webkit-clip-path: circle(50%, 50%, 50%); */
+/*} */

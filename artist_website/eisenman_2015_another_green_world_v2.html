@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nicole Eisenman</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="stylesheets/main.css">
+   	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<style>
+
+    html, body { 
+        cursor: none;
+        background: rgb(255, 245, 81);
+    }
+
+    .hand1 {
+        position: absolute;
+    }
+
+</style>
+
+<body>
+
+<img src="assets/cursors_site/eisenman_2015_another_green_world_v2.png" class="hand1">
+
+<a class="home" href="index.html"> <img src="assets/paintings_site/eisenman_2015_another_green_world.jpg">
+</a>
+
+
+
+<script>
+$(document).ready(function() {
+
+    $(document).mousemove(function(e) {
+        $('.hand1').css({
+           left:  e.pageX - 50,
+           top:   e.pageY - 50
+        });
+    });
+
+    $(document).click(function(){
+    window.location.href='index.html';
+})
+
+
+});
+</script>
+
+
+</body>
+
+	
+</html>
+
+
+
+
+
