@@ -1,18 +1,30 @@
-html, body {
-	height: 100%;
-	width: 100%;
-}
-
 body {
-	background-color: white;
 	margin: 0;
-	padding: 50px;
-	margin-bottom: 2em;
-	padding-bottom: 4em;
+	padding: 0;
+	background-color: 
 }
 
+.container {
+    margin: auto;
+    width: 80%;
+    display: block;
+    text-align: center;
+}    
 
-.keanu {
-	height: 100px;
-	width: 100px;
+.image {
+    width: 200px;
+    padding: 3px;
+    opacity: 0;
+}
+
+/*.image:hover {
+	opacity: 100;
+	transform: rotate(5deg);
+}*/
+
+.image:hover {
+   opacity: 100;
+   transition: opacity 3s ease-in-out;
+   -moz-transition: opacity 3s ease-in-out;
+   -webkit-transition: opacity 3s ease-in-out;
 }
