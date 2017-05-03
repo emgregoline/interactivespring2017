@@ -4,30 +4,33 @@ body {
 	background-color: white;
 }
 
+
+.title {
+	margin: auto;
+	height: 50px;
+	top: 0;
+	padding: 1em;
+    position: fixed;
+}
+
+a {
+	text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+.title:hover {
+	transform: rotate(-3deg);	
+}
+
 .container {
     margin: auto;
     width: 80%;
     display: block;
     text-align: center;
 }    
-
-.title {
-	width: 80%;
-	margin: auto;
-	padding-top: 1em;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
-    text-align: center;
-}
-
-a {
-	text-decoration: none;
-    color: black;
-}
-
-.title:hover {
-	transform: rotate(-3deg);	
-}
 
 .image {
     width: 200px;
