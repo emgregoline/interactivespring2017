@@ -26,6 +26,12 @@
   <!--
   This is the button.
   -->
+<div class="button">
+    <div class="xvert"></div>
+    <div class="xhor"></div>
+    <div class="xright"></div>
+    <div class="xleft"></div>
+</div>
 
 
 
@@ -2310,17 +2316,14 @@ $(document).ready(function(){
     // Use MouseMove instead of CSS Cursor
     $(document).mousemove(function(e) {
         $('.starCursor').css({
-           left:  e.pageX - 1,
-           top:   e.pageY - 19
+           left:  e.pageX - 50,
+           top:   e.pageY - 50
         });
     });
 
 $(function(){
 
-    $(document).click(function(){
-    window.location.href='moira_answer_2.html';
-    })
-
+  
 
 
 });

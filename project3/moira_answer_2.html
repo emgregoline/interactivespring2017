@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Moira</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/moirae_clotho_v06.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+  <!--
+  This is the button.
+<!--   -->
+<!-- <div class="button">
+    <div class="xvert"></div>
+    <div class="xhor"></div>
+    <div class="xright"></div>
+    <div class="xleft"></div>
+</div>
+
+ --> 
+
+ <div class="starCursor">
+    <div class="xvert"></div>
+    <div class="xhor"></div>
+    <div class="xright"></div>
+    <div class="xleft"></div>
+</div>
+
+
+
+<div id="donotcount" class="answer">
+
+
+  <div class="letter8 d">
+
+    <div class="letter d">
+      <div class="left"></div>
+      <div class="top"></div>
+      <div class="bottom"></div>
+    </div>
+
+    <div class="star d-top">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star d-middle">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star d-bottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="letter8 o">
+
+    <div class="letter o">
+      <div class="left"></div>
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star o-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star o-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+  <div class="letter8 space"></div>
+
+
+
+
+  <div class="letter14 n">
+
+    <div class="letter n">
+      <div class="left"></div>
+      <div class="middle"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star n-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star n-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star n-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star n-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="letter8 o">
+
+    <div class="letter o">
+      <div class="left"></div>
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star o-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star o-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="letter8 t">
+
+    <div class="letter t">
+      <div class="top"></div>
+      <div class="bottom"></div>
+    </div>
+
+    <div class="star t-topleft">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-topmiddle">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-topright">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-bottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+   
+
+  <div class="letter8 space"></div>
+
+
+
+
+
+  <div class="letter8 c">
+
+    <div class="letter c">
+      <div class="top"></div>
+      <div class="bottom"></div>
+    </div>
+
+    <div class="star c-top">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star c-middle">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star c-bottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="letter8 o">
+
+    <div class="letter o">
+      <div class="left"></div>
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star o-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star o-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="letter8 u">
+
+    <div class="letter u">
+      <div class="left"></div>
+      <div class="bottom"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star u-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star u-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star u-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star u-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="letter14 n">
+
+    <div class="letter n">
+      <div class="left"></div>
+      <div class="middle"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star n-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star n-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star n-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star n-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="letter8 t">
+
+    <div class="letter t">
+      <div class="top"></div>
+      <div class="bottom"></div>
+    </div>
+
+    <div class="star t-topleft">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-topmiddle">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-topright">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-bottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+  <div class="letter8 space"></div>
+
+
+
+
+
+  <div class="letter8 o">
+
+    <div class="letter o">
+      <div class="left"></div>
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star o-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star o-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star o-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="letter14 n">
+
+    <div class="letter n">
+      <div class="left"></div>
+      <div class="middle"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="star n-lefttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star n-leftbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star n-righttop">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div> 
+
+    <div class="star n-rightbottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+  <div class="letter8 space"></div>
+
+
+
+
+
+  <div class="letter2 i">
+
+    <div class="letter i">
+      <div class="left"></div>
+    </div>
+
+    <div class="star i-top">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="letter8 t">
+
+    <div class="letter t">
+      <div class="top"></div>
+      <div class="bottom"></div>
+    </div>
+
+    <div class="star t-topleft">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-topmiddle">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-topright">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+    <div class="star t-bottom">
+      <div class="xvert"></div>
+      <div class="xhor"></div>
+      <div class="xright"></div>
+      <div class="xleft"></div>
+    </div>
+
+</div>
+
+
+  </div>
+
+
+
+
+
+
+<script>
+
+
+$(document).ready(function(){
+
+    $(".star").mouseenter(function(){
+        $(".letter").fadeIn(10000);
+    });
+
+
+    $(".star").mouseleave(function(){
+        $(".letter").fadeOut(10000);
+    });
+
+
+    $('.star').click(function(){
+      $('.letter').toggleClass('show');
+    });
+    
+    // Use MouseMove instead of CSS Cursor
+    $(document).mousemove(function(e) {
+        $('.starCursor').css({
+           left:  e.pageX - 1,
+           top:   e.pageY - 19
+        });
+    });
+
+$(function(){
+
+    $(document).click(function(){
+    window.location.href='moira_answer_3.html';
+    })
+
+
+
+});
+
+
+});
+
+
+</script>
+
+</body>
+
+</html>
