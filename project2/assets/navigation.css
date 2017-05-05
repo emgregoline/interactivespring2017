@@ -1,21 +1,49 @@
-a#navigation {
-    text-decoration: none;
-    font-size: 19px;
+
+.home {
+    top: 5px;
+    left: 5px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 30px;
     color: black;
     position: fixed;
+    text-decoration: none;
+    z-index: 100000000;
 }
 
- a#home {
-    font-size: 24px;
-    text-decoration: none;
+.next {
+    top: 5px;
+    right: 5px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 30px;
     color: black;
     position: fixed;
+    text-decoration: none;
+    z-index: 100000000;
 }
 
-a#navigation:hover {
+
+.previous {
+    bottom: 5px;
+    right: 5px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 30px;
+    color: black;
+    position: fixed;
+    text-decoration: none;
+    z-index: 100000000;
+}
+
+
+
+
+.next:hover {
     opacity: 0;
 }
 
-a#home:hover {
+.previous:hover {
+    opacity: 0;
+}
+
+.home:hover {
     opacity: 0;
 }

@@ -10,6 +10,13 @@ body {
   height: 40px;
 }
 
+.starCursor {
+  position: absolute;
+  left: -100px;
+  top: -100px;
+  pointer-events: none;
+}
+
 .letter {
   display: none;
 }

@@ -9,12 +9,20 @@
 
 </head>
 
-<style>HTML,BODY{cursor: url("assets/moirae_cursor.cur"), auto; .star:hover {cursor: none;}
+<style>
+html, body {
+    cursor: none; .star:hover 
+  }
 
 </style>
 
 <body>
-
+<div class="starCursor">
+    <div class="xvert"></div>
+    <div class="xhor"></div>
+    <div class="xright"></div>
+    <div class="xleft"></div>
+</div>
   <!--
   This is the button.
   -->
@@ -2301,10 +2309,17 @@ $(document).ready(function(){
     });
 
 
-  $('.star').click(function(){
-    $('.letter').toggleClass('show');
-  });
-  
+    $('.star').click(function(){
+      $('.letter').toggleClass('show');
+    });
+    
+    // Use MouseMove instead of CSS Cursor
+    $(document).mousemove(function(e) {
+        $('.starCursor').css({
+           left:  e.pageX - 50,
+           top:   e.pageY - 50
+        });
+    });
 
 $(function(){
 
