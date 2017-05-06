@@ -1,0 +1,41 @@
+body {
+			background: rgb(250, 122, 201);
+		}
+
+a {
+			color: red;
+			text-decoration: none;
+		}
+
+
+a:hover {
+			color: rgb(250, 122, 201);
+		}
+
+
+ul {
+			color: red;
+			list-style-type: none;
+		}
+
+.container {
+			max-width: 400px;
+			padding: 18px;
+			margin-top: -18px;
+
+		}
+
+.nav {
+			position: fixed;
+			right: 0;
+			top: 0;
+			width: 200px;
+			background-color: rgb(250, 122, 201);
+
+		}
+
+
+#carl {
+	font-family: Times, serif;
+	font-size: 36pt;
+}
